@@ -3,14 +3,15 @@ import { fetchTop250 } from "./thunks"
 
 const initialState: Top250State = {
 	movies: [],
-	isLoading: false
+	isLoading: false,
+	isError: false
 }
 
 export const top250Slice = createSlice({
 	name: 'top250',
 	initialState,
 	reducers: {
-		dataFetched: (state, action: PayloadAction<MovieType[]>) => {
+		top250Fetched: (state, action: PayloadAction<MovieType[]>) => {
 			state.movies = action.payload
 		}
 	},
@@ -23,16 +24,21 @@ export const top250Slice = createSlice({
 				state.movies = action.payload
 				state.isLoading = false
 			})
+			.addCase(fetchTop250.rejected, (state, action) => {
+				state.isLoading = false
+				state.isError = true
+			})
 	}
 })
 
-export const { dataFetched } = top250Slice.actions
+export const { top250Fetched } = top250Slice.actions
 
 export default top250Slice.reducer
 
 interface Top250State {
 	movies: MovieType[]
 	isLoading: boolean
+	isError: boolean
 }
 
 export type MovieType = {
