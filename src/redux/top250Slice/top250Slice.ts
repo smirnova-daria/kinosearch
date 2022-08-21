@@ -13,6 +13,12 @@ export const top250Slice = createSlice({
 	reducers: {
 		top250Fetched: (state, action: PayloadAction<MovieType[]>) => {
 			state.movies = action.payload
+		},
+		movieToggled: (state, action: PayloadAction<string>) => {
+			const movie = state.movies.find(m => m.id === action.payload)
+			if (movie) {
+				movie.isLiked = !movie.isLiked
+			}
 		}
 	},
 	extraReducers: builder => {
@@ -31,7 +37,7 @@ export const top250Slice = createSlice({
 	}
 })
 
-export const { top250Fetched } = top250Slice.actions
+export const { top250Fetched, movieToggled } = top250Slice.actions
 
 export default top250Slice.reducer
 

@@ -5,6 +5,8 @@ import { selectTop250Movies } from "../../redux/top250Slice/selectors"
 import { fetchTop250 } from "../../redux/top250Slice/thunks"
 import { Layout } from 'antd';
 import styles from './Top250MoviesList.module.scss'
+import { movieToggled } from "../../redux/top250Slice/top250Slice"
+
 export const Top250MoviesList: FC = () => {
 	const movies = useAppSelector(selectTop250Movies)
 	const dispatch = useAppDispatch()
@@ -13,9 +15,13 @@ export const Top250MoviesList: FC = () => {
 		dispatch(fetchTop250())
 	}, [dispatch])
 
+	const toggleMovie = (id: string) => {
+		dispatch(movieToggled(id))
+	}
+
 	return (
 		<Layout className={styles.pageContainer}>
-			<MoviesList movies={movies} />
+			<MoviesList movies={movies} handleClick={toggleMovie} />
 		</Layout>
 	)
 }
