@@ -15,11 +15,11 @@ export const moviesAPI = {
 
 		return top250Data
 	},
-	fetchMostPopularFilms(): Promise<ResponseType> {
-		return instance.get(`MostPopularMovies/${apikey}`)
-			.then(res => res.data)
+	fetchMostPopularFilms(): ResponseType {
+		// return instance.get(`MostPopularMovies/${apikey}`)
+		// 	.then(res => res.data)
 
-		//return mostPopular
+		return mostPopular
 	}
 }
 

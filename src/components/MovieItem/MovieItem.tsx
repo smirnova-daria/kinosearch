@@ -7,7 +7,7 @@ import { Button } from 'antd';
 export const MovieItem: FC<PropsType> = ({ movie, handleClick }) => {
 	return (
 		<div className={styles.movie}>
-			<img src={movie.image} alt={movie.title} />
+			<img src={movie.image} alt={movie.title} loading='lazy' />
 			<div className={styles.actionsBlock}>
 				<Link to={`${movie.id}`} className={styles.moreLink}>More</Link>
 				<Button type="default" onClick={() => handleClick(movie.id)}>

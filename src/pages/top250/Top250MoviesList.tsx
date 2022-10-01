@@ -7,7 +7,7 @@ import { Layout } from 'antd';
 import styles from './Top250MoviesList.module.scss'
 import { movieToggled } from "../../redux/top250Slice/top250Slice"
 
-export const Top250MoviesList: FC = () => {
+const Top250MoviesList: FC = () => {
 	const movies = useAppSelector(selectTop250Movies)
 	const dispatch = useAppDispatch()
 
@@ -25,3 +25,5 @@ export const Top250MoviesList: FC = () => {
 		</Layout>
 	)
 }
+
+export default Top250MoviesList

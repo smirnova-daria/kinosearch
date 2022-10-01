@@ -7,7 +7,7 @@ import { fetchMostPopular, selectMostPopularMovies } from '../../redux/mostPopul
 import styles from '../top250/Top250MoviesList.module.scss'
 import { MoviesList } from '../../components/MoviesList/MoviesList';
 
-export const MostPopularMoviesList = () => {
+const MostPopularMoviesList = () => {
 	const movies = useAppSelector(selectMostPopularMovies)
 	const dispatch = useAppDispatch()
 
@@ -21,3 +21,4 @@ export const MostPopularMoviesList = () => {
 		</Layout>
 	)
 }
+export default MostPopularMoviesList
