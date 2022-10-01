@@ -1,36 +1,36 @@
 import React, { FC, useState } from 'react';
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { Menu, Layout } from 'antd';
 import type { MenuProps } from 'antd';
 
 export const HeaderMenu: FC = () => {
-	const [current, setCurrent] = useState('top250');
+	const location = useLocation()
+	const [current, setCurrent] = useState(location.pathname);
 
 	const onClick: MenuProps['onClick'] = e => {
-		console.log('click ', e);
 		setCurrent(e.key);
 	};
 
 	const menuItems: MenuProps['items'] = [
 		{
 			label: (<Link to='/top250-movies' >Top 250 movies</Link>),
-			key: 'top250',
+			key: '/top250-movies',
 		},
 		{
 			label: (<Link to='/most-popular-movies' >Most popular movies</Link>),
-			key: 'mostPopular',
+			key: '/most-popular-movies',
 		},
 		{
 			label: (<Link to='/random-movie' >Random movie</Link>),
-			key: 'random',
+			key: '/random-movie',
 		},
 		{
 			label: (<Link to='/search-movie' >Search movie</Link>),
-			key: 'search',
+			key: '/search-movie',
 		},
 		{
 			label: (<Link to='/favorite-movies' >Favorite movies</Link>),
-			key: 'favorite',
+			key: '/favorite-movies',
 		},
 	]
 	const { Header } = Layout
