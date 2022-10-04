@@ -56,7 +56,7 @@ export const moviesSlice = createSlice({
 				return false
 			})
 
-			if (movie && index) {
+			if (movie && index !== undefined) {
 				movie.isLiked = false
 				state.favoriteMovies.splice(index, 1)
 				localStorage.setItem('favorite-movies', JSON.stringify(state.favoriteMovies))
