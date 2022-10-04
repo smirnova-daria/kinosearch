@@ -6,9 +6,7 @@ import "antd/dist/antd.css";
 import { Layout } from 'antd';
 import { lazy, Suspense } from 'react';
 
-
-const Top250MoviesList = lazy(() => import('./pages/top250/Top250MoviesList'))
-const MostPopularMoviesList = lazy(() => import('./pages/mostPopular/MostPopularMoviesList'))
+const MoviesPage = lazy(() => import('./pages/MoviesPage/MoviesPage'))
 
 function App() {
   const { Content } = Layout
@@ -18,11 +16,12 @@ function App() {
       <Content>
         <Suspense fallback={<Spin style={{ position: 'fixed', left: '50%', transform: 'translateX(-50%)', top: '100px' }} />}>
           <Routes>
-            <Route path='/' element={<Navigate to='/top250-movies' />} />
-            <Route path='/top250-movies' element={<Top250MoviesList />} />
-            <Route path='/most-popular-movies' element={<MostPopularMoviesList />} />
+            <Route path='/' element={<Navigate to='/movies/top250' />} />
+            <Route path='/movies/top250' element={<MoviesPage type='top250' />} />
+            <Route path='/movies/most-popular' element={<MoviesPage type='mostPopular' />} />
+            {/* <Route path='/movie/:id' element={<MoviePage />} /> */}
             <Route path='/random-movie' />
-            <Route path='/favorite-movies' />
+            <Route path='/favorite-movies' element={<MoviesPage type='favorite' />} />
             <Route path='/search-movie' />
             <Route path='*' element={'404'} />
           </Routes>

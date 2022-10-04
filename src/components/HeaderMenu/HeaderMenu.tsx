@@ -13,12 +13,12 @@ export const HeaderMenu: FC = () => {
 
 	const menuItems: MenuProps['items'] = [
 		{
-			label: (<Link to='/top250-movies' >Top 250 movies</Link>),
-			key: '/top250-movies',
+			label: (<Link to='/movies/top250' >Top 250 movies</Link>),
+			key: '/movies/top250',
 		},
 		{
-			label: (<Link to='/most-popular-movies' >Most popular movies</Link>),
-			key: '/most-popular-movies',
+			label: (<Link to='/movies/most-popular' >Most popular movies</Link>),
+			key: '/movies/most-popular',
 		},
 		{
 			label: (<Link to='/random-movie' >Random movie</Link>),
