@@ -32,12 +32,33 @@
 	opacity: 1;
 }
 .moreLink {
-	background-color: #fff;
 	padding: 5px 10px;
 	border-radius: 2px;
-	color: #000;
+	color: #fff;
+	font-size: 1.2rem;
+}
+.favoriteBtn {
+	border: none;
+	background-color: transparent;
+	border-radius: 50%;
+	padding: 0;
+	width: 30px;
+	height: 30px;
+	span {
+		font-size: 1.2rem;
+	}
+	svg {
+		fill: #fff;
+		transition: 0.3s;
+	}
 
-	&:hover {
-		outline: 1px solid;
+	&:hover svg {
+		fill: #40a9ff;
+	}
+	&:hover,
+	&:active,
+	&:focus,
+	&:visited {
+		background-color: transparent;
 	}
 }
