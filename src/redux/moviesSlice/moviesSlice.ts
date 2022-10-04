@@ -47,15 +47,8 @@ export const moviesSlice = createSlice({
 			}
 		},
 		removeFromFavorite: (state, action: PayloadAction<string>) => {
-			let index;
-			const movie = state.moviesToShow.find((m, i) => {
-				if (m.id === action.payload) {
-					index = i
-					return m
-				}
-				return false
-			})
-
+			const movie = state.moviesToShow.find(m => m.id === action.payload)
+			const index = state.favoriteMovies.findIndex(m => m.id === action.payload)
 			if (movie && index !== undefined) {
 				movie.isLiked = false
 				state.favoriteMovies.splice(index, 1)
