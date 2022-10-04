@@ -65,11 +65,15 @@ export const moviesSlice = createSlice({
 		clearFavorite: (state) => {
 			state.favoriteMovies = []
 			localStorage.removeItem('favorite-movies')
+		},
+		setMoviesToShow: (state, action: PayloadAction<MovieType[]>) => {
+			state.moviesToShow = action.payload
 		}
 	},
 	extraReducers: builder => {
 		builder
 			.addCase(fetchMoviesList.pending, (state) => {
+				state.moviesToShow = []
 				state.isLoading = true
 				state.isError = false
 			})
@@ -79,6 +83,7 @@ export const moviesSlice = createSlice({
 				state.moviesToShow = action.payload
 			})
 			.addCase(fetchMoviesList.rejected, (state) => {
+				state.moviesToShow = []
 				state.isLoading = false
 				state.isError = true
 			})
@@ -102,9 +107,11 @@ export type MovieType = {
 	isLiked: boolean
 }
 
-export const { addToFavorite, removeFromFavorite, clearFavorite } = moviesSlice.actions
+export const { addToFavorite, removeFromFavorite, clearFavorite, setMoviesToShow } = moviesSlice.actions
 
 export default moviesSlice.reducer
 
 export const selectMoviesToShow = (state: RootState) => state.movies.moviesToShow
 export const selectFavoriteMovies = (state: RootState) => state.movies.favoriteMovies
+export const selectIsLoading = (state: RootState) => state.movies.isLoading
+export const selectIsError = (state: RootState) => state.movies.isError

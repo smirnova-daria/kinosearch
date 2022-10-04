@@ -1,11 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
-import top250Reducer from './top250Slice/top250Slice'
-import mostPopularReducer from './mostPopularSlice/mostPopularSlice'
+import moviesReducer from './moviesSlice/moviesSlice'
 
 export const store = configureStore({
 	reducer: {
-		top250: top250Reducer,
-		mostPopular: mostPopularReducer
+		movies: moviesReducer
 	}
 })
 
