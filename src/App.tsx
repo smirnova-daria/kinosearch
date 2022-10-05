@@ -6,7 +6,8 @@ import "antd/dist/antd.css";
 import { Layout } from 'antd';
 import { lazy, Suspense } from 'react';
 
-const MoviesPage = lazy(() => import('./pages/MoviesPage/MoviesPage'))
+const MoviesPage = lazy(() => import('./pages/MoviesPage/MoviesPage'));
+const MoviePage = lazy(() => import('./pages/MoviePage/MoviePage'))
 
 function App() {
   const { Content } = Layout
@@ -19,7 +20,7 @@ function App() {
             <Route path='/' element={<Navigate to='/movies/top250' />} />
             <Route path='/movies/top250' element={<MoviesPage type='top250' />} />
             <Route path='/movies/most-popular' element={<MoviesPage type='mostPopular' />} />
-            {/* <Route path='/movie/:id' element={<MoviePage />} /> */}
+            <Route path='/movie/:id' element={<MoviePage />} />
             <Route path='/random-movie' />
             <Route path='/favorite-movies' element={<MoviesPage type='favorite' />} />
             <Route path='/search-movie' />
