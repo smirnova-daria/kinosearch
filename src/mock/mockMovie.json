@@ -1,0 +1,1278 @@
+{
+	"id": "tt10648342",
+	"title": "Thor: Love and Thunder",
+	"originalTitle": "",
+	"fullTitle": "Thor: Love and Thunder (2022)",
+	"type": "Movie",
+	"year": "2022",
+	"image": "https://m.media-amazon.com/images/M/MV5BYmMxZWRiMTgtZjM0Ny00NDQxLWIxYWQtZDdlNDNkOTEzYTdlXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_Ratio0.6762_AL_.jpg",
+	"releaseDate": "2022-07-08",
+	"runtimeMins": "118",
+	"runtimeStr": "1h 58min",
+	"plot": "Thor enlists the help of Valkyrie, Korg and ex-girlfriend Jane Foster to fight Gorr the God Butcher, who intends to make the gods extinct.",
+	"plotLocal": "Четвертая часть серии фильмов студии Marvel о Торе.",
+	"plotLocalIsRtl": false,
+	"awards": "Awards, 3 nominations",
+	"directors": "Taika Waititi",
+	"directorList": [
+		{
+			"id": "nm0169806",
+			"name": "Taika Waititi"
+		}
+	],
+	"writers": "Taika Waititi, Jennifer Kaytin Robinson, Stan Lee",
+	"writerList": [
+		{
+			"id": "nm0169806",
+			"name": "Taika Waititi"
+		},
+		{
+			"id": "nm3066492",
+			"name": "Jennifer Kaytin Robinson"
+		},
+		{
+			"id": "nm0498278",
+			"name": "Stan Lee"
+		}
+	],
+	"stars": "Chris Hemsworth, Natalie Portman, Christian Bale",
+	"starList": [
+		{
+			"id": "nm1165110",
+			"name": "Chris Hemsworth"
+		},
+		{
+			"id": "nm0000204",
+			"name": "Natalie Portman"
+		},
+		{
+			"id": "nm0000288",
+			"name": "Christian Bale"
+		}
+	],
+	"actorList": [
+		{
+			"id": "nm1165110",
+			"image": "https://m.media-amazon.com/images/M/MV5BOTU2MTI0NTIyNV5BMl5BanBnXkFtZTcwMTA4Nzc3OA@@._V1_Ratio0.7273_AL_.jpg",
+			"name": "Chris Hemsworth",
+			"asCharacter": "Thor"
+		},
+		{
+			"id": "nm0000204",
+			"image": "https://m.media-amazon.com/images/M/MV5BYzU0ZGRhZWItMGJlNy00YzlkLWIzOWYtNDA2NzlhMDg3YjMwXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_Ratio0.7273_AL_.jpg",
+			"name": "Natalie Portman",
+			"asCharacter": "Jane Foster / The Mighty Thor"
+		},
+		{
+			"id": "nm0000288",
+			"image": "https://m.media-amazon.com/images/M/MV5BMTkxMzk4MjQ4MF5BMl5BanBnXkFtZTcwMzExODQxOA@@._V1_Ratio0.7273_AL_.jpg",
+			"name": "Christian Bale",
+			"asCharacter": "Gorr"
+		},
+		{
+			"id": "nm1935086",
+			"image": "https://m.media-amazon.com/images/M/MV5BNjk4MDU3NDg4NF5BMl5BanBnXkFtZTcwMjMxMjcwNA@@._V1_Ratio0.7273_AL_.jpg",
+			"name": "Tessa Thompson",
+			"asCharacter": "King Valkyrie"
+		},
+		{
+			"id": "nm0169806",
+			"image": "https://m.media-amazon.com/images/M/MV5BMzk4MDIzNjcwNV5BMl5BanBnXkFtZTgwMTIyMjgwNDI@._V1_Ratio0.7727_AL_.jpg",
+			"name": "Taika Waititi",
+			"asCharacter": "Korg / Old Kronan God (voice)"
+		},
+		{
+			"id": "nm0000128",
+			"image": "https://m.media-amazon.com/images/M/MV5BMTQyMTExNTMxOF5BMl5BanBnXkFtZTcwNDg1NzkzNw@@._V1_Ratio0.7273_AL_.jpg",
+			"name": "Russell Crowe",
+			"asCharacter": "Zeus"
+		},
+		{
+			"id": "nm1526352",
+			"image": "https://m.media-amazon.com/images/M/MV5BMTY0MzU1MTEzMl5BMl5BanBnXkFtZTgwMDY3OTA2MDE@._V1_Ratio0.7273_AL_.jpg",
+			"name": "Jaimie Alexander",
+			"asCharacter": "Sif"
+		},
+		{
+			"id": "nm0252961",
+			"image": "https://m.media-amazon.com/images/M/MV5BNzEzMTI2NjEyNF5BMl5BanBnXkFtZTcwNTA0OTE4OA@@._V1_Ratio0.7273_AL_.jpg",
+			"name": "Idris Elba",
+			"asCharacter": "Heimdall"
+		},
+		{
+			"id": "nm0695435",
+			"image": "https://m.media-amazon.com/images/M/MV5BNDU1NjU0MzA5NF5BMl5BanBnXkFtZTgwNTg5OTY2MjI@._V1_Ratio0.7273_AL_.jpg",
+			"name": "Chris Pratt",
+			"asCharacter": "Peter Quill / Star-Lord"
+		},
+		{
+			"id": "nm1176985",
+			"image": "https://m.media-amazon.com/images/M/MV5BNTZkYzU0ZGUtZTk1MC00MzJjLWFmMzItY2M0ODY1ZmI2OGQ0XkEyXkFqcGdeQXVyMjI0MjgwNjc@._V1_Ratio1.7727_AL_.jpg",
+			"name": "Dave Bautista",
+			"asCharacter": "Drax"
+		},
+		{
+			"id": "nm2394794",
+			"image": "https://m.media-amazon.com/images/M/MV5BMTQwMDQ0NDk1OV5BMl5BanBnXkFtZTcwNDcxOTExNg@@._V1_Ratio0.7273_AL_.jpg",
+			"name": "Karen Gillan",
+			"asCharacter": "Nebula"
+		},
+		{
+			"id": "nm2962353",
+			"image": "https://m.media-amazon.com/images/M/MV5BMTkzNjE5MzY5M15BMl5BanBnXkFtZTgwMDI5ODMxODE@._V1_Ratio1.4091_AL_.jpg",
+			"name": "Pom Klementieff",
+			"asCharacter": "Mantis"
+		},
+		{
+			"id": "nm0348231",
+			"image": "https://m.media-amazon.com/images/M/MV5BMmM1NzY3ODMtZWE4YS00OTkwLWJiOGEtYmI4ZDlhMzRiMzBkXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_Ratio0.7273_AL_.jpg",
+			"name": "Sean Gunn",
+			"asCharacter": "Kraglin / On-Set Rocket"
+		},
+		{
+			"id": "nm0004874",
+			"image": "https://m.media-amazon.com/images/M/MV5BMjExNzA4MDYxN15BMl5BanBnXkFtZTcwOTI1MDAxOQ@@._V1_Ratio0.7273_AL_.jpg",
+			"name": "Vin Diesel",
+			"asCharacter": "Groot (voice)"
+		},
+		{
+			"id": "nm0177896",
+			"image": "https://m.media-amazon.com/images/M/MV5BMjM0OTIyMzY1M15BMl5BanBnXkFtZTgwMTg0OTE0NzE@._V1_Ratio0.7273_AL_.jpg",
+			"name": "Bradley Cooper",
+			"asCharacter": "Rocket (voice)"
+		},
+		{
+			"id": "nm5415372",
+			"image": "https://m.media-amazon.com/images/M/MV5BMjdlN2U2ZTgtOGVjMi00MGNjLThjM2UtYmZiY2RlNTIzMmNkXkEyXkFqcGdeQXVyNDg3MTcyNjY@._V1_Ratio0.7273_AL_.jpg",
+			"name": "Carly Rees",
+			"asCharacter": "Miek"
+		},
+		{
+			"id": "nm0993507",
+			"image": "https://m.media-amazon.com/images/M/MV5BMTcxNjk2NzA5Ml5BMl5BanBnXkFtZTcwNzIxMDcwOQ@@._V1_Ratio0.7273_AL_.jpg",
+			"name": "Kat Dennings",
+			"asCharacter": "Darcy Lewis"
+		},
+		{
+			"id": "nm6296226",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Suren Jayemanne",
+			"asCharacter": "Asgardian Stagehand"
+		},
+		{
+			"id": "nm12281779",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Natasha Cheng",
+			"asCharacter": "Asgardian Stagehand"
+		},
+		{
+			"id": "nm2073429",
+			"image": "https://m.media-amazon.com/images/M/MV5BNjIyZTZmNDEtZmQ4Ny00YWFkLWFjOGMtMDFhOTM4ZjliM2Q1XkEyXkFqcGdeQXVyMjAxMDE4NTc@._V1_Ratio0.7727_AL_.jpg",
+			"name": "Brett Goldstein",
+			"asCharacter": "Hercules"
+		},
+		{
+			"id": "nm0193135",
+			"image": "https://m.media-amazon.com/images/M/MV5BMjA5MzU2OTgwM15BMl5BanBnXkFtZTcwNjE2MzE1Nw@@._V1_Ratio1.5000_AL_.jpg",
+			"name": "Stephen Curry",
+			"asCharacter": "King Yakan"
+		},
+		{
+			"id": "nm0001745",
+			"image": "https://m.media-amazon.com/images/M/MV5BMzljNGIzYjgtMTQ0MS00OWU1LTk1NWEtOWQ3ZDhmNzQ2ZDAxXkEyXkFqcGdeQXVyMDAzMDk4OQ@@._V1_Ratio1.2273_AL_.jpg",
+			"name": "Stellan Skarsgård",
+			"asCharacter": "Selvig"
+		},
+		{
+			"id": "nm3479192",
+			"image": "https://m.media-amazon.com/images/M/MV5BYmNmMTU3YzctZWRmMS00NDMyLWI1ZTgtNDY1MjdkNzRhOGE3XkEyXkFqcGdeQXVyMjAxNTk4NzQ@._V1_Ratio1.0000_AL_.jpg",
+			"name": "Bobby Holland Hanton",
+			"asCharacter": "Habooska the Horrible"
+		},
+		{
+			"id": "nm1292661",
+			"image": "https://m.media-amazon.com/images/M/MV5BN2RmYzMxOGEtZDBjMi00ZDQ2LTk2YmEtMmQxNjViZTU2OGY0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_Ratio1.5000_AL_.jpg",
+			"name": "Luke Hemsworth",
+			"asCharacter": "Actor Thor"
+		},
+		{
+			"id": "nm0000354",
+			"image": "https://m.media-amazon.com/images/M/MV5BMTM0NzYzNDgxMl5BMl5BanBnXkFtZTcwMDg2MTMyMw@@._V1_Ratio0.7273_AL_.jpg",
+			"name": "Matt Damon",
+			"asCharacter": "Actor Loki"
+		},
+		{
+			"id": "nm2587184",
+			"image": "https://m.media-amazon.com/images/M/MV5BNjBiOTc1NjMtNTgyZS00ZTMwLWE4OTgtNWIzZTcyODliZWQ0XkEyXkFqcGdeQXVyMTE1NTYzMDE4._V1_Ratio0.9091_AL_.jpg",
+			"name": "Daley Pearson",
+			"asCharacter": "Darryl the Tour Guide"
+		},
+		{
+			"id": "nm13811764",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Dianne Close",
+			"asCharacter": "Asgard Tourist"
+		},
+		{
+			"id": "nm0000554",
+			"image": "https://m.media-amazon.com/images/M/MV5BMjUyMTU0MzA0MF5BMl5BanBnXkFtZTgwNTA4MTQ4NjM@._V1_Ratio0.7273_AL_.jpg",
+			"name": "Sam Neill",
+			"asCharacter": "Actor Odin"
+		},
+		{
+			"id": "nm0565250",
+			"image": "https://m.media-amazon.com/images/M/MV5BMTg5NjA3ODkyMl5BMl5BanBnXkFtZTgwNTU4Mzg5NjE@._V1_Ratio0.7727_AL_.jpg",
+			"name": "Melissa McCarthy",
+			"asCharacter": "Actor Hela"
+		},
+		{
+			"id": "nm13811765",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Greg Mitchell",
+			"asCharacter": "Asgard Tourist"
+		},
+		{
+			"id": "nm1229520",
+			"image": "https://m.media-amazon.com/images/M/MV5BMzA0MTM2MDE1Ml5BMl5BanBnXkFtZTgwMTgyNjIzNDE@._V1_Ratio1.0000_AL_.jpg",
+			"name": "Ben Falcone",
+			"asCharacter": "Asgardian Stage Manager"
+		},
+		{
+			"id": "nm13811766",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Briegh Winderbaum",
+			"asCharacter": "Ship Tourist"
+		},
+		{
+			"id": "nm13811767",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Mayzie Winderbaum",
+			"asCharacter": "Ship Tourist"
+		},
+		{
+			"id": "nm13811768",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Izaac Winderbaum",
+			"asCharacter": "Ship Tourist"
+		},
+		{
+			"id": "nm13811769",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Alanis Long Borrello",
+			"asCharacter": "Ship Tourist"
+		},
+		{
+			"id": "nm13811770",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Luka Bale",
+			"asCharacter": "Infinity Conez Vendor"
+		},
+		{
+			"id": "nm11327866",
+			"image": "https://m.media-amazon.com/images/M/MV5BNmQ2ZjlmYzAtNTM3YS00NTJiLWJiNzYtMGQ3NGI3NzBkZDYyXkEyXkFqcGdeQXVyMTE4NDM1NzA5._V1_Ratio0.7727_AL_.jpg",
+			"name": "Kieron L. Dyer",
+			"asCharacter": "Axl"
+		},
+		{
+			"id": "nm0750971",
+			"image": "https://m.media-amazon.com/images/M/MV5BMjIwMDY3MTM2MF5BMl5BanBnXkFtZTcwNTEyOTgxOA@@._V1_Ratio0.7273_AL_.jpg",
+			"name": "Simon Russell Beale",
+			"asCharacter": "Dionysus"
+		},
+		{
+			"id": "nm13831724",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "India Rose Hemsworth",
+			"asCharacter": "Gorr's Daughter / Love"
+		},
+		{
+			"id": "nm8651153",
+			"image": "https://m.media-amazon.com/images/M/MV5BYjg3ZWExMjEtNzIzYy00Mzk2LWI4YzgtYTZiOGFlNDdmN2ZlXkEyXkFqcGdeQXVyOTgwOTAyNDA@._V1_Ratio0.7273_AL_.jpg",
+			"name": "Manny Spero",
+			"asCharacter": "Chemo Ward Patient"
+		},
+		{
+			"id": "nm1591353",
+			"image": "https://m.media-amazon.com/images/M/MV5BZDVmNGYyZTgtMGNiMy00ZDQzLTllNmItODFkNTA0NGU5YThjXkEyXkFqcGdeQXVyNzg5MzIyOA@@._V1_Ratio0.7273_AL_.jpg",
+			"name": "Jonny Brugh",
+			"asCharacter": "Rapu"
+		},
+		{
+			"id": "nm10308551",
+			"image": "https://m.media-amazon.com/images/M/MV5BZGRmNjFmYzMtZTkwZS00NzU5LWE5MTctOWM5M2VkZDg0YWU5XkEyXkFqcGdeQXVyNDQxNjcxNQ@@._V1_Ratio2.3636_AL_.jpg",
+			"name": "Andrew Crawford",
+			"asCharacter": "Flower God"
+		},
+		{
+			"id": "nm6876985",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Chanique Greyling",
+			"asCharacter": "Young Frigga"
+		},
+		{
+			"id": "nm0766120",
+			"image": "https://m.media-amazon.com/images/M/MV5BOTEzMjM2MzE2NF5BMl5BanBnXkFtZTcwMzk0Mjc1Nw@@._V1_Ratio1.7727_AL_.jpg",
+			"name": "Brooke Satchwell",
+			"asCharacter": "Indigarrian Woman Glenda"
+		},
+		{
+			"id": "nm0665235",
+			"image": "https://m.media-amazon.com/images/M/MV5BMTAyNjU4MzkyNzleQTJeQWpwZ15BbWU3MDk2NTQ0Mjk@._V1_Ratio0.7273_AL_.jpg",
+			"name": "Elsa Pataky",
+			"asCharacter": "Wolf Woman"
+		},
+		{
+			"id": "nm8829914",
+			"image": "https://m.media-amazon.com/images/M/MV5BNjhiZmU0ZGItYjcwZC00MDM3LWJjNzEtYjNmOTkwYjhkZDFiXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_Ratio0.7273_AL_.jpg",
+			"name": "Zia Kelly",
+			"asCharacter": "Pirate Woman"
+		},
+		{
+			"id": "nm6142948",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Rosangela Fasano",
+			"asCharacter": "Alien Woman"
+		},
+		{
+			"id": "nm13811771",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Cameron Chapek",
+			"asCharacter": "Baby Thor"
+		},
+		{
+			"id": "nm13811772",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Tristan Hemsworth",
+			"asCharacter": "Kid Thor"
+		},
+		{
+			"id": "nm12987999",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Samson Alston",
+			"asCharacter": "Teenage Thor"
+		},
+		{
+			"id": "nm13811773",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Alan Spies",
+			"asCharacter": "Asgardian Pan Flute Player"
+		},
+		{
+			"id": "nm3987250",
+			"image": "https://m.media-amazon.com/images/M/MV5BNzc5ZDM1MjUtNTc4NC00MGI5LWIyMjQtZjI3ZjljOTY0MmY5XkEyXkFqcGdeQXVyNDA2Mjg0NzM@._V1_Ratio0.7273_AL_.jpg",
+			"name": "Eliza Matengu",
+			"asCharacter": "Grace (Axl's Mother)"
+		},
+		{
+			"id": "nm3996908",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Shari Sebbens",
+			"asCharacter": "Asgardian"
+		},
+		{
+			"id": "nm10356300",
+			"image": "https://m.media-amazon.com/images/M/MV5BMGUxYjg4ZGMtZGFkZS00YTIwLWJhZWMtMTZmYjczNTVlZTljXkEyXkFqcGdeQXVyOTc0OTk1ODY@._V1_Ratio0.7727_AL_.jpg",
+			"name": "Victoria Zerbst",
+			"asCharacter": "Asgardian"
+		},
+		{
+			"id": "nm5653208",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Johnny Nasser",
+			"asCharacter": "Asgardian"
+		},
+		{
+			"id": "nm6488996",
+			"image": "https://m.media-amazon.com/images/M/MV5BODU4MTZiNDctYTQyNy00MDQyLTkwMDYtYTdhZGY5NmJiZDdmXkEyXkFqcGdeQXVyODg0ODY1NjI@._V1_Ratio0.7727_AL_.jpg",
+			"name": "Jenna Owen",
+			"asCharacter": "Asgardian"
+		},
+		{
+			"id": "nm7383440",
+			"image": "https://m.media-amazon.com/images/M/MV5BYWU5MGMwNWQtOTgxYS00NzA4LThhZTEtNGE1YTg4N2YyMWE3XkEyXkFqcGdeQXVyNjc3MTAyNTM@._V1_Ratio0.7273_AL_.jpg",
+			"name": "Gemma Dart",
+			"asCharacter": "Asgardian"
+		},
+		{
+			"id": "nm6669603",
+			"image": "https://m.media-amazon.com/images/M/MV5BZGQyNmNkZmMtMDVmOC00NDg0LTkxYTktYTcyMjU0MzdmY2ZjXkEyXkFqcGdeQXVyNTk5OTYyNDA@._V1_Ratio0.7727_AL_.jpg",
+			"name": "Victoria Ferrara",
+			"asCharacter": "Falligarian Kid"
+		},
+		{
+			"id": "nm13811774",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Ava Rodrigo-Porter",
+			"asCharacter": "Pink Alien Sister"
+		},
+		{
+			"id": "nm13811775",
+			"image": "https://m.media-amazon.com/images/M/MV5BMjc5NjY2OTctNWM3Zi00YmMyLWI2ZTQtYzZiYTcyMDk5M2ZhXkEyXkFqcGdeQXVyMTU0Nzk2NDgy._V1_Ratio1.0000_AL_.jpg",
+			"name": "Elsa Rodrigo-Porter",
+			"asCharacter": "Pink Alien Sister"
+		},
+		{
+			"id": "nm8698456",
+			"image": "https://m.media-amazon.com/images/M/MV5BYWY4YmU0MTUtYzdmNi00NTUwLWJmNGEtNTgzMDViZTZiZGQ0XkEyXkFqcGdeQXVyNzk0MjU0NzQ@._V1_Ratio0.7273_AL_.jpg",
+			"name": "Kaan Guldur",
+			"asCharacter": "Wolfboy"
+		},
+		{
+			"id": "nm13811776",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Indeia Booc",
+			"asCharacter": "Blue Girl"
+		},
+		{
+			"id": "nm12712302",
+			"image": "https://m.media-amazon.com/images/M/MV5BZGJjYzIzMTktZmMwYS00OTNlLWFiNmItMmU4MmM0ZGRhZDI3XkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_Ratio0.7273_AL_.jpg",
+			"name": "Indiana Ierano",
+			"asCharacter": "Red Girl"
+		},
+		{
+			"id": "nm13811777",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Cayla Sutherland",
+			"asCharacter": "Cocoon Girl"
+		},
+		{
+			"id": "nm6715045",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Tui Vincent",
+			"asCharacter": "Alien Child"
+		},
+		{
+			"id": "nm3660970",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Garth Wood",
+			"asCharacter": "Guard"
+		},
+		{
+			"id": "nm1909568",
+			"image": "https://m.media-amazon.com/images/M/MV5BMGJhZTQ4MTEtZGVmNS00ZGQ3LWFiM2ItNmJlOTc4NDA0Yjk5XkEyXkFqcGdeQXVyMjMxNTMzMDY@._V1_Ratio0.7727_AL_.jpg",
+			"name": "Yure Covich",
+			"asCharacter": "Guard"
+		},
+		{
+			"id": "nm9988509",
+			"image": "https://m.media-amazon.com/images/M/MV5BZDM3YTJkNDMtMDhhOC00M2VkLTk0MWMtYTQ1YzZjOWY1YWI5XkEyXkFqcGdeQXVyMTAxNTQyMDYy._V1_Ratio0.7273_AL_.jpg",
+			"name": "Matatia Foa'i",
+			"asCharacter": "Guard"
+		},
+		{
+			"id": "nm0241225",
+			"image": "https://m.media-amazon.com/images/M/MV5BZDc5YjZhYzctYzk2Yi00YWU2LTk3MTktZmExOGZjMmU2MWNkXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_Ratio0.7273_AL_.jpg",
+			"name": "Alan Dukes",
+			"asCharacter": "US Delegate"
+		},
+		{
+			"id": "nm13811778",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Alan Tsibulya",
+			"asCharacter": "Sycophant God"
+		},
+		{
+			"id": "nm5064446",
+			"image": "https://m.media-amazon.com/images/M/MV5BM2Y5YjBiNWMtN2Q5Yi00ZmU2LTg5NGUtNTUyMzllMzE4NmY2XkEyXkFqcGdeQXVyNDAxNDUwMDE@._V1_Ratio0.7273_AL_.jpg",
+			"name": "Arka Das",
+			"asCharacter": "Sycophant God"
+		},
+		{
+			"id": "nm8527224",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Simona Paparelli",
+			"asCharacter": "Bao, God of Dumplings (voice) (as Simona Paparelli Wolf)"
+		},
+		{
+			"id": "nm1067317",
+			"image": "https://m.media-amazon.com/images/M/MV5BMjA4NTQ4MjQxN15BMl5BanBnXkFtZTcwNjQwMTIzMQ@@._V1_Ratio1.4545_AL_.jpg",
+			"name": "Nico Cortez",
+			"asCharacter": "Aztec God"
+		},
+		{
+			"id": "nm6695727",
+			"image": "https://m.media-amazon.com/images/M/MV5BMDVhZDhhNmQtMDA3Ny00YjUzLTk3YTktMjY5OWU3NzdmMzE3XkEyXkFqcGdeQXVyMjM1MTY2MDc@._V1_Ratio0.7273_AL_.jpg",
+			"name": "Priscilla Doueihy",
+			"asCharacter": "Artemis God"
+		},
+		{
+			"id": "nm8310302",
+			"image": "https://m.media-amazon.com/images/M/MV5BYzg2NjYwZGUtMjY1OS00ZTc5LWJjOTEtYWZkMTlmZDlmMzY2XkEyXkFqcGdeQXVyMTU0MzgzNDUy._V1_Ratio0.7273_AL_.jpg",
+			"name": "Nicole Milinkovic",
+			"asCharacter": "Elche Goddess"
+		},
+		{
+			"id": "nm12769244",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Chayla Korewha",
+			"asCharacter": "Maori Princess"
+		},
+		{
+			"id": "nm3835892",
+			"image": "https://m.media-amazon.com/images/M/MV5BMzQyYWUyZDQtN2I0MC00Y2YwLWFmOTAtMWRkNzRmMWFkZTdkXkEyXkFqcGdeQXVyMTU0NjM1NDQ1._V1_Ratio1.0000_AL_.jpg",
+			"name": "Imaan Hadchiti",
+			"asCharacter": "Mayan God (as Imaan J Hadchiti)"
+		},
+		{
+			"id": "nm8213183",
+			"image": "https://m.media-amazon.com/images/M/MV5BYjJhNDFkNzgtZTNjNS00ZDRkLTk0ZTItNTAzZTE5ZDBjOTU4XkEyXkFqcGdeQXVyOTYxMDI0ODU@._V1_Ratio0.7273_AL_.jpg",
+			"name": "Carmen Foon",
+			"asCharacter": "Minerva"
+		},
+		{
+			"id": "nm4443322",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Clariza Vicente",
+			"asCharacter": "Goddess of the Dead"
+		},
+		{
+			"id": "nm0368058",
+			"image": "https://m.media-amazon.com/images/M/MV5BYjkzZjljMGMtYjhkMi00OTZlLThlMmMtOWJiZGE4MDI2NmQxXkEyXkFqcGdeQXVyMTk0NjQzNDA@._V1_Ratio0.7727_AL_.jpg",
+			"name": "Kuni Hashimoto",
+			"asCharacter": "Jademurai God"
+		},
+		{
+			"id": "nm1053536",
+			"image": "https://m.media-amazon.com/images/M/MV5BY2IyNDRkYWQtMGUxOC00ODFhLTlmN2YtZTQ5ZWEyOTRlYTM4XkEyXkFqcGdeQXVyMjI4MTMwMzk@._V1_Ratio0.7273_AL_.jpg",
+			"name": "Stephen Hunter",
+			"asCharacter": "Fur God"
+		},
+		{
+			"id": "nm13811779",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Justin Paul Hitchcock",
+			"asCharacter": "Masked God"
+		},
+		{
+			"id": "nm13811780",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Nazih Kheir",
+			"asCharacter": "Masked God"
+		},
+		{
+			"id": "nm13715070",
+			"image": "https://m.media-amazon.com/images/M/MV5BZjMzMjI0MmYtOGQzYi00OTU2LTg5ZGItY2JlY2Y5YzE5NWQ5XkEyXkFqcGdeQXVyMTUzMzM1ODc3._V1_Ratio0.7273_AL_.jpg",
+			"name": "Tatyana Gillam",
+			"asCharacter": "Zeusette"
+		},
+		{
+			"id": "nm1505375",
+			"image": "https://m.media-amazon.com/images/M/MV5BN2MwYzk5MzMtZDhkMi00N2EyLWE4MmQtMDg5YjU1MmJiNzEwXkEyXkFqcGdeQXVyNjYzNDE4ODA@._V1_Ratio0.7273_AL_.jpg",
+			"name": "Indiana Evans",
+			"asCharacter": "Zeusette"
+		},
+		{
+			"id": "nm10655829",
+			"image": "https://m.media-amazon.com/images/M/MV5BZTE5NmU3M2QtOTkyNC00MDY3LWFlMzgtODA4MWY2OTI4ZDc0XkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_Ratio0.7273_AL_.jpg",
+			"name": "Samantha Allsop",
+			"asCharacter": "Zeusette"
+		},
+		{
+			"id": "nm12827822",
+			"image": "https://m.media-amazon.com/images/M/MV5BMWI2YmY0ODUtN2QxMS00OGE5LThlMDItMWY0NjVhMWM1ZDYwXkEyXkFqcGdeQXVyMTM5MjAyNTM0._V1_Ratio0.7727_AL_.jpg",
+			"name": "Olivia Vasquez",
+			"asCharacter": "Zeusette"
+		},
+		{
+			"id": "nm2671585",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Adam Todd",
+			"asCharacter": "Zeus Pretty Boy"
+		},
+		{
+			"id": "nm12093817",
+			"image": "https://m.media-amazon.com/images/M/MV5BNGM4OWIzOGItNzQyNC00YWVjLWJmMWUtODBhZDhlZmRlNDViXkEyXkFqcGdeQXVyMTI2NjIwODcw._V1_Ratio0.9091_AL_.jpg",
+			"name": "Josh Heuston",
+			"asCharacter": "Zeus Pretty Boy"
+		},
+		{
+			"id": "nm13811782",
+			"image": "https://m.media-amazon.com/images/M/MV5BNzgyNGFkN2QtMmY3ZC00YTRkLTljZDUtYmQ2Yzc0ZTVjMzUyXkEyXkFqcGdeQXVyMTU2NTgxNTA@._V1_Ratio0.9091_AL_.jpg",
+			"name": "David Hambly",
+			"asCharacter": "Zeus Harpist"
+		},
+		{
+			"id": "nm13811783",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Janessa Dufty",
+			"asCharacter": "Dancing God"
+		},
+		{
+			"id": "nm9690566",
+			"image": "https://m.media-amazon.com/images/M/MV5BYzNkOTA3OGUtOWQ5Zi00NDhjLThjMGEtODc5YzQ5YTZkZjk3XkEyXkFqcGdeQXVyODYzMzQzNDU@._V1_Ratio0.7273_AL_.jpg",
+			"name": "Ava Caryofyllis",
+			"asCharacter": "Young Jane"
+		},
+		{
+			"id": "nm4708708",
+			"image": "https://m.media-amazon.com/images/M/MV5BNjEwZDMzZjUtYWU5Ny00ZjczLTlhNjgtOTZmMzZjNjUyYzFlXkEyXkFqcGdeQXVyOTE3MTE4NTI@._V1_Ratio0.7727_AL_.jpg",
+			"name": "Chloé Gouneau",
+			"asCharacter": "Jane's Mother (as Chloe Gouneau)"
+		},
+		{
+			"id": "nm4161154",
+			"image": "https://m.media-amazon.com/images/M/MV5BMTg0OTExMDkwMF5BMl5BanBnXkFtZTgwNDg2MTk4MjI@._V1_Ratio0.7273_AL_.jpg",
+			"name": "Ben Sinclair",
+			"asCharacter": "Science Friend"
+		},
+		{
+			"id": "nm3960151",
+			"image": "https://m.media-amazon.com/images/M/MV5BODQ0MjNiYTMtZjk4OC00NzQ5LTk0OTktZWE1M2QyMTdmNTFmXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_Ratio0.7273_AL_.jpg",
+			"name": "Jane Yubin Kim",
+			"asCharacter": "Asgardian Doctor"
+		},
+		{
+			"id": "nm2779964",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Dave Cory",
+			"asCharacter": "Kronan Dwayne"
+		},
+		{
+			"id": "nm13811784",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Te Kainga O'Te Hinekahu Waititi",
+			"asCharacter": "Asgardian Kid"
+		},
+		{
+			"id": "nm13811785",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Sasha Hemsworth",
+			"asCharacter": "Asgardian Kid"
+		},
+		{
+			"id": "nm11231259",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Amalia Millepied",
+			"asCharacter": "Asgardian Kid (as Amala Millepied)"
+		},
+		{
+			"id": "nm12480642",
+			"image": "https://m.media-amazon.com/images/M/MV5BMzQxMDUzOWMtMTg2ZS00ZDg4LTgwMmYtOThiYTkzNThkZWNkXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_Ratio0.7727_AL_.jpg",
+			"name": "Molly Moriarty",
+			"asCharacter": "Asgardian Kid"
+		},
+		{
+			"id": "nm13505557",
+			"image": "https://m.media-amazon.com/images/M/MV5BYzAyNjNmNGItYzhiZS00MzFhLTk5ODctNDAwODkzMzk2NThlXkEyXkFqcGdeQXVyMTUyNTYwNDI2._V1_Ratio0.7273_AL_.jpg",
+			"name": "Luc Barrett",
+			"asCharacter": "Asgardian Kid"
+		},
+		{
+			"id": "nm10412014",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Bo Chambers",
+			"asCharacter": "Asgardian Kid"
+		},
+		{
+			"id": "nm13811787",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Leeton Alan Ingrey",
+			"asCharacter": "Asgardian Kid"
+		},
+		{
+			"id": "nm13811788",
+			"image": "https://m.media-amazon.com/images/M/MV5BYjNhZTY5NDctZWJkYi00ZWU2LTgyZTQtNWNkM2I5MjIxM2JhXkEyXkFqcGdeQXVyMTU0Mjk0NzUy._V1_Ratio0.9091_AL_.jpg",
+			"name": "Jessica May Lynne",
+			"asCharacter": "Asgardian Kid"
+		},
+		{
+			"id": "nm9546698",
+			"image": "https://m.media-amazon.com/images/M/MV5BZjY2NTIwZjAtYTQ2MS00Y2YxLTg4ZjctMTA3NWEzZTEzMzNjXkEyXkFqcGdeQXVyODQyODgyMDk@._V1_Ratio0.7727_AL_.jpg",
+			"name": "Kim Doan",
+			"asCharacter": "Asgardian Kid"
+		},
+		{
+			"id": "nm13811789",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Sienna Ngeru",
+			"asCharacter": "Asgardian Kid"
+		},
+		{
+			"id": "nm13811790",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Gabriel Siemer",
+			"asCharacter": "Asgardian Kid"
+		},
+		{
+			"id": "nm13811791",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Arias Vang",
+			"asCharacter": "Asgardian Kid"
+		},
+		{
+			"id": "nm13811792",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Xander Mouradian",
+			"asCharacter": "Asgardian Kid"
+		},
+		{
+			"id": "nm13811793",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Matewa Kiritapu Waititi",
+			"asCharacter": "Asgardian Kid"
+		},
+		{
+			"id": "nm10082066",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Aleph Millepied",
+			"asCharacter": "Asgardian Kid"
+		},
+		{
+			"id": "nm13811795",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Joseph Bale",
+			"asCharacter": "Asgardian Kid (as Rex Bale)"
+		},
+		{
+			"id": "nm13811796",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Hannah Gray",
+			"asCharacter": "Asgardian Kid"
+		},
+		{
+			"id": "nm10199035",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Luca Darda",
+			"asCharacter": "Asgardian Kid"
+		},
+		{
+			"id": "nm13811798",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Zali Mae Harrison",
+			"asCharacter": "Asgardian Kid"
+		},
+		{
+			"id": "nm13670390",
+			"image": "https://m.media-amazon.com/images/M/MV5BZTg4ZWU1ZDEtMDU4Mi00YjAzLWJiODYtZGY4OWI5NWI5MzVmXkEyXkFqcGdeQXVyMTU0MjY1MDEy._V1_Ratio0.7273_AL_.jpg",
+			"name": "Evan Stanhope",
+			"asCharacter": "Asgardian Kid"
+		},
+		{
+			"id": "nm13811799",
+			"image": "https://m.media-amazon.com/images/M/MV5BN2NlYjE3Y2UtYTQ5ZC00NTc1LTk2NjctZjM1ZTZlNDQ3NjA5XkEyXkFqcGdeQXVyMTQ5ODYyNTc2._V1_Ratio0.9091_AL_.jpg",
+			"name": "Jaimee Rose Lynn",
+			"asCharacter": "Asgardian Kid"
+		},
+		{
+			"id": "nm9352908",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Simone Landers",
+			"asCharacter": "Asgardian Kid"
+		},
+		{
+			"id": "nm13811801",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Rafael Siemer",
+			"asCharacter": "Asgardian Kid"
+		},
+		{
+			"id": "nm13811802",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Ronin Fabi",
+			"asCharacter": "Asgardian Kid"
+		},
+		{
+			"id": "nm13811803",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Corban Ierano",
+			"asCharacter": "Asgardian Kid"
+		},
+		{
+			"id": "nm13811804",
+			"image": "https://m.media-amazon.com/images/M/MV5BMDJkZjlhYTUtOTQxNy00ZGQ2LTliNDUtNzBkMWEyZmEyYTYyXkEyXkFqcGdeQXVyMTM1OTMzNDk5._V1_Ratio0.7273_AL_.jpg",
+			"name": "Jacob Yee",
+			"asCharacter": "Asgardian Kid"
+		},
+		{
+			"id": "nm7518211",
+			"image": "https://m.media-amazon.com/images/M/MV5BZmMxZDY2YTgtNDJjNS00NjI1LThlOGEtNjY0ZTk2NzkzNTBjXkEyXkFqcGdeQXVyMTU2MjE5OTU0._V1_Ratio0.7273_AL_.jpg",
+			"name": "Dante Alba",
+			"asCharacter": "Asgardian (uncredited)"
+		},
+		{
+			"id": "nm5458958",
+			"image": "https://m.media-amazon.com/images/M/MV5BMTQxYzE0OGUtMzYxYy00YWM5LWFlMzgtZTAwNTg3MWExOGIyXkEyXkFqcGdeQXVyNDAxODUzOTQ@._V1_Ratio0.7273_AL_.jpg",
+			"name": "Hunter Stratton Boland",
+			"asCharacter": "Alien Kid (uncredited)"
+		},
+		{
+			"id": "nm12489452",
+			"image": "https://m.media-amazon.com/images/M/MV5BNTU1M2IwYjgtNjg5Yi00OTQ0LWJiZGUtNDNjZWE3ZWY2OThlXkEyXkFqcGdeQXVyMTMyMDIyMzI3._V1_Ratio0.7273_AL_.jpg",
+			"name": "Martin Cohen",
+			"asCharacter": "Indegariran Guard (uncredited)"
+		},
+		{
+			"id": "nm13789731",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Larissa Costa",
+			"asCharacter": "New Asgardian (uncredited)"
+		},
+		{
+			"id": "nm0164130",
+			"image": "https://m.media-amazon.com/images/M/MV5BMTAzNTU0OTAwOTBeQTJeQWpwZ15BbWU4MDE0ODY1Njgx._V1_Ratio1.2273_AL_.jpg",
+			"name": "Josephine Croft",
+			"asCharacter": "Floating Head Parent 2 (uncredited)"
+		},
+		{
+			"id": "nm2551407",
+			"image": "https://m.media-amazon.com/images/M/MV5BNDJlNDVlYjEtOWQyYS00ZWM3LThlZjAtNWNiNjM1MDMxNWYxXkEyXkFqcGdeQXVyODM4MjcwMjk@._V1_Ratio0.7273_AL_.jpg",
+			"name": "Mark Casimir Dyniewicz Jr.",
+			"asCharacter": "New Asgardian (uncredited)"
+		},
+		{
+			"id": "nm13043141",
+			"image": "https://m.media-amazon.com/images/M/MV5BNzE5YTkwOGYtODU5OS00MDBhLWE3M2EtNWM2NGFmYTFiNjA5XkEyXkFqcGdeQXVyMTQyNTM5NDMy._V1_Ratio1.5000_AL_.jpg",
+			"name": "Paolo Guglielmini",
+			"asCharacter": "Asgardian Parent (uncredited)"
+		},
+		{
+			"id": "nm10322934",
+			"image": "https://m.media-amazon.com/images/M/MV5BYjU2OTExZTctZThiYS00M2YxLTk4YjktNWI5MDM4ZGUyMmYxXkEyXkFqcGdeQXVyOTYzNDUxNDU@._V1_Ratio1.4545_AL_.jpg",
+			"name": "Patrick Hatfield",
+			"asCharacter": "New Asgardian (uncredited)"
+		},
+		{
+			"id": "nm12413254",
+			"image": "https://m.media-amazon.com/images/M/MV5BNDM3YjVkOTYtY2E3Yy00NWU1LWE3YmMtNWI3MjBlZmQyYzg4XkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_Ratio0.7273_AL_.jpg",
+			"name": "Jason Jago",
+			"asCharacter": "New Asgardian (uncredited)"
+		},
+		{
+			"id": "nm7942941",
+			"image": "https://m.media-amazon.com/images/M/MV5BZGU0NDE2ODktOGYxZS00MTAzLWJmZWYtZmJlMTYxZTMyOWQ2XkEyXkFqcGdeQXVyMTEyMzAyNTI3._V1_Ratio0.7273_AL_.jpg",
+			"name": "Fletcher Kennedy",
+			"asCharacter": "Asgardian Kid (uncredited)"
+		},
+		{
+			"id": "nm9827922",
+			"image": "https://m.media-amazon.com/images/M/MV5BOWU5MjI3ZjAtODViZC00OTVjLTljMjYtNGI3MTE0ZmYxNDc5XkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_Ratio0.7273_AL_.jpg",
+			"name": "Luisa Mariano",
+			"asCharacter": "New Asgardian / Tourist (uncredited)"
+		},
+		{
+			"id": "nm12486862",
+			"image": "https://m.media-amazon.com/images/M/MV5BM2JlYTliNDktNmE0OS00MjU1LWE3MzctYTYxNTYzNDQxYjM5XkEyXkFqcGdeQXVyMTMxMzk0MzIy._V1_Ratio0.7273_AL_.jpg",
+			"name": "Imi Mbedla",
+			"asCharacter": "Asgardian Kid (uncredited)"
+		},
+		{
+			"id": "nm10397713",
+			"image": "https://m.media-amazon.com/images/M/MV5BNWNkM2M2MTUtOGQ0Ni00MTViLTgwNTYtOWJiN2ViNmNlMDE4XkEyXkFqcGdeQXVyMzI2MDEwNA@@._V1_Ratio1.0000_AL_.jpg",
+			"name": "Aiden Mckenzie",
+			"asCharacter": "Asgardian Tourist (uncredited)"
+		},
+		{
+			"id": "nm10985006",
+			"image": "https://m.media-amazon.com/images/M/MV5BNjRiY2ExNzQtODdiYi00ZGI0LTk2Y2QtODYyNmNlZTkwYmNkXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_Ratio1.1818_AL_.jpg",
+			"name": "Shayan Murray",
+			"asCharacter": "New Asgardian (uncredited)"
+		},
+		{
+			"id": "nm2558438",
+			"image": "https://m.media-amazon.com/images/M/MV5BMjc0ODNiYzMtNDMwMC00MWEwLWI3YTEtMjUyMWNlNDYxNTYxXkEyXkFqcGdeQXVyMTUzNzIyNjg4._V1_Ratio0.7273_AL_.jpg",
+			"name": "Eric Presnall",
+			"asCharacter": "New Asgardian (uncredited)"
+		},
+		{
+			"id": "nm13812667",
+			"image": "https://m.media-amazon.com/images/M/MV5BOTYyOGE0ZGUtZjgxNC00MmY2LWE3NjktODI3MDE0NzJjZjkxXkEyXkFqcGdeQXVyNDY4MzMyNDk@._V1_Ratio0.7273_AL_.jpg",
+			"name": "Chipo Riva",
+			"asCharacter": "Asgard Parent (uncredited)"
+		},
+		{
+			"id": "nm13727341",
+			"image": "https://imdb-api.com/images/original/nopicture.jpg",
+			"name": "Gemma Russell",
+			"asCharacter": "Asgardian Kid (uncredited)"
+		},
+		{
+			"id": "nm9339457",
+			"image": "https://m.media-amazon.com/images/M/MV5BOGY1ZWY0YzQtZWQ0Ny00MzIwLTkwZjMtMWU5ZDEyN2FkMWUzXkEyXkFqcGdeQXVyMzMzMTQ0MzA@._V1_Ratio0.7727_AL_.jpg",
+			"name": "Akosia Sabet",
+			"asCharacter": "Bastet God (uncredited)"
+		},
+		{
+			"id": "nm13738645",
+			"image": "https://m.media-amazon.com/images/M/MV5BYmIzMTM0NTgtM2M2YS00MjRmLTgyYWMtOTYxOGEyYzJmNjA3XkEyXkFqcGdeQXVyMTQ3MzUxNTE0._V1_Ratio0.7273_AL_.jpg",
+			"name": "Rachel Slack",
+			"asCharacter": "Asgardian (uncredited)"
+		},
+		{
+			"id": "nm0907650",
+			"image": "https://m.media-amazon.com/images/M/MV5BNDY5NjkzMDktY2Y2Ni00Yzk0LWFjYjUtMDE2MDFlZjNlZDE2XkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_Ratio0.7273_AL_.jpg",
+			"name": "Craig Walker",
+			"asCharacter": "New Asgardian (uncredited)"
+		},
+		{
+			"id": "nm13801497",
+			"image": "https://m.media-amazon.com/images/M/MV5BYjAyNzQ5NGYtYjg1NC00ODk2LTk4ODctN2RjNDIxZTkxZDcxXkEyXkFqcGdeQXVyMTU0MTQ3MjI4._V1_Ratio0.7273_AL_.jpg",
+			"name": "Bobby Winch",
+			"asCharacter": "Senator (uncredited)"
+		}
+	],
+	"fullCast": null,
+	"genres": "Действие, Приключение, Комедия",
+	"genreList": [
+		{
+			"key": "Action",
+			"value": "Действие"
+		},
+		{
+			"key": "Adventure",
+			"value": "Приключение"
+		},
+		{
+			"key": "Comedy",
+			"value": "Комедия"
+		}
+	],
+	"companies": "Marvel Studios, Fox Studios Australia, Walt Disney Pictures",
+	"companyList": [
+		{
+			"id": "co0051941",
+			"name": "Marvel Studios"
+		},
+		{
+			"id": "co0046850",
+			"name": "Fox Studios Australia"
+		},
+		{
+			"id": "co0008970",
+			"name": "Walt Disney Pictures"
+		}
+	],
+	"countries": "Австралия, США",
+	"countryList": [
+		{
+			"key": "Australia",
+			"value": "Австралия"
+		},
+		{
+			"key": "USA",
+			"value": "США"
+		}
+	],
+	"languages": "Английский",
+	"languageList": [
+		{
+			"key": "English",
+			"value": "Английский"
+		}
+	],
+	"contentRating": "PG-13",
+	"imDbRating": "6.4",
+	"imDbRatingVotes": "257352",
+	"metacriticRating": "57",
+	"ratings": null,
+	"wikipedia": null,
+	"posters": null,
+	"images": {
+		"imDbId": "tt10648342",
+		"title": "Thor: Love and Thunder",
+		"fullTitle": "Thor: Love and Thunder (2022)",
+		"type": "Movie",
+		"year": "2022",
+		"items": [
+			{
+				"title": "Tessa Thompson in Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BNjkxY2M2NzEtODJiYy00NDRkLThjNGYtYWRhMThmODg1OWVlXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_Ratio1.6400_AL_.jpg"
+			},
+			{
+				"title": "Chris Hemsworth in Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BNWYzZjEwYmEtOWQzMi00ZmM1LTlhMWQtZTkyODBmYjY4YmFhXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_Ratio1.5000_AL_.jpg"
+			},
+			{
+				"title": "Natalie Portman and Chris Hemsworth in Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BYzg3Mjc2MzgtMmRkNS00NjhhLWEwYjUtMWRlZGE2ZmRiNTk5XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_Ratio1.5000_AL_.jpg"
+			},
+			{
+				"title": "Chris Hemsworth in Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BNGExYWRiOGItYzNkMi00Y2U4LTliMGYtYjk0MDFmMmI1MzcyXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_Ratio1.4600_AL_.jpg"
+			},
+			{
+				"title": "Christian Bale in Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BMDdjNTc0NjUtOGRkNC00YzNlLTgyNzktMzY0Y2NlYWU4NGFlXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_Ratio2.3800_AL_.jpg"
+			},
+			{
+				"title": "Chris Hemsworth in Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BZjYwZjFjMTYtMjQzZi00MThmLTkyYzktMDU5MGVhZGM2MDFlXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_Ratio1.5000_AL_.jpg"
+			},
+			{
+				"title": "Natalie Portman and Chris Hemsworth in Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BNjYwY2YyOGYtYTFhZi00NmFiLWFkNTctNGU0YTI4Zjg4MWQ1XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_Ratio1.5000_AL_.jpg"
+			},
+			{
+				"title": "Natalie Portman and Chris Hemsworth in Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BZGYwZDhiOTAtNTJjZS00YWZiLTkwZjEtYWRiMjIwMGJlNjM1XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_Ratio1.5000_AL_.jpg"
+			},
+			{
+				"title": "Chris Hemsworth in Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BYzM5YmM2NmQtYjBiZi00MDYxLTliZDUtNjZiZGY5OTliNTg2XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_Ratio1.0000_AL_.jpg"
+			},
+			{
+				"title": "Chris Hemsworth in Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BYzRmZjczMGEtNTQwMy00NWJkLWIxYTgtZmY4NjAxMGEyNjEzXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_Ratio1.5000_AL_.jpg"
+			},
+			{
+				"title": "Christian Bale in Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BMDFlN2E5ODEtM2U4YS00YzBmLTlkYjItNjJmNzYyM2QxMTYxXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_Ratio2.3800_AL_.jpg"
+			},
+			{
+				"title": "Tessa Thompson in Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BNWM5NWUxYjEtOTdiYS00NzgzLTk4Y2UtZGYwOTI0Njc4YjA3XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_Ratio1.5000_AL_.jpg"
+			},
+			{
+				"title": "Chris Pratt, Chris Hemsworth, and Pom Klementieff in Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BNzZiNTM2YWItYTQ5Mi00NTA4LTkzMjAtYzhhNzUyOWFmMWUwXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_Ratio1.5800_AL_.jpg"
+			},
+			{
+				"title": "Natalie Portman in Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BMTQ0OGFjNDctMjdiZS00ZjEyLTkyYmEtMjFmMWM1NTM5YjAyXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_Ratio1.5000_AL_.jpg"
+			},
+			{
+				"title": "Chris Hemsworth in Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BZjRhYzNkNzEtMDhiNy00ZmUxLWFmYzMtNTc3OTkzMWNkZjlkXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_Ratio1.5000_AL_.jpg"
+			},
+			{
+				"title": "Natalie Portman, Tessa Thompson, and Akosia Sabet in Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BNjIyNzkxYTAtMjJjNy00MTE5LWE4ZTUtMDRlZjZhOGNiYzY1XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_Ratio1.5000_AL_.jpg"
+			},
+			{
+				"title": "Natalie Portman, Chris Hemsworth, and Joshua Friedman in Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BYjgxMTliN2ItN2RjMy00YWUxLWE0MzUtMDdkYzI2MGM0M2YzXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_Ratio1.5000_AL_.jpg"
+			},
+			{
+				"title": "Christian Bale in Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BODM3N2Q5MGEtNmFiNS00MjQ3LWFkOGQtMjE1NWZjY2FkMWFlXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_Ratio2.3800_AL_.jpg"
+			},
+			{
+				"title": "Jasin Boland, Taika Waititi, and Chris Hemsworth in Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BMjNjNzIzMTUtNWRlNi00NzU4LWI0NDctYzUwMmJlYWJmNjRmXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_Ratio1.5000_AL_.jpg"
+			},
+			{
+				"title": "Natalie Portman at an event for Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BNGNhZTYxMGMtMWMxMS00MTBmLWI2OTItYjY4MzY1ODcyZTZmXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_Ratio1.5000_AL_.jpg"
+			},
+			{
+				"title": "Taika Waititi and Rita Ora at an event for Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BNzkwZDM3MGYtNzM3Zi00ZWFmLWFhNmQtNzk4MTNkM2JlNDRiXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_Ratio1.0000_AL_.jpg"
+			},
+			{
+				"title": "Natalie Portman at an event for Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BMGJmNzYzMzktYWJkYS00MzA2LWFiYWMtNzZlNjFmNGY5MDRmXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_Ratio1.0000_AL_.jpg"
+			},
+			{
+				"title": "Natalie Portman at an event for Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BMGJkODMyNzgtNzNmNy00MDIzLTliODMtZjg3OTU1NTliNDY2XkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_Ratio1.5000_AL_.jpg"
+			},
+			{
+				"title": "Christian Bale at an event for Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BMTY5ZTZkYjctNjE3NC00ODg0LWFkODItOTE2NWM1MzFhNGEwXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_Ratio1.0000_AL_.jpg"
+			},
+			{
+				"title": "Taika Waititi and Chris Hemsworth at an event for Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BMjc1NzgxNDctNjBkOS00YjJjLTk4OTYtNThmZjY0OWE0NWYxXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_Ratio1.7800_AL_.jpg"
+			},
+			{
+				"title": "Elsa Pataky at an event for Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BMTk0NmQ1YTEtZGY5MC00ZTIyLTllZmEtM2QwMzNlYzRlMjg3XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_Ratio1.0000_AL_.jpg"
+			},
+			{
+				"title": "Taika Waititi at an event for Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BMmQ1OTBlMzgtNjVhZi00YjFmLTljODQtZDZlNTg5NjQyZDAxXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_Ratio1.0000_AL_.jpg"
+			},
+			{
+				"title": "Sarah Tilleke at an event for Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BOTFmNWIxMjUtODY5Mi00YTZmLWI3ZDgtNjBhYTI3YTdiMDk0XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_Ratio1.0000_AL_.jpg"
+			},
+			{
+				"title": "Taika Waititi and Chris Hemsworth at an event for Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BODkyZjJhMGUtNjQ5Ni00NTZlLTk2NDMtYzYzZjBmNTQ4NWRjXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_Ratio1.5000_AL_.jpg"
+			},
+			{
+				"title": "Taika Waititi at an event for Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BODhhYTA5NmMtOGQyNi00NGNmLWJhZjAtZjNhODE1NTQ2YWZmXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_Ratio1.5000_AL_.jpg"
+			},
+			{
+				"title": "Taika Waititi at an event for Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BNTA2MzkxMTYtNzQzNy00ZWI3LWFkNDgtMGU3NWYzNzk0ZjRjXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_Ratio1.0000_AL_.jpg"
+			},
+			{
+				"title": "Sarah Tilleke at an event for Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BMDhjOTE2NjMtNTQ2MC00ZjZjLTg5ZjItNmRkNTdmZjFjYTZjXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_Ratio1.5000_AL_.jpg"
+			},
+			{
+				"title": "Taika Waititi at an event for Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BZmFlN2M0ZWUtOWU5YS00ZDY5LTg1NDItZTU4M2Y5MzcwMzNlXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_Ratio1.0000_AL_.jpg"
+			},
+			{
+				"title": "Elsa Pataky and Chris Hemsworth at an event for Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BYzFkMmFjMjUtZTM3ZS00NDVkLTlmMTYtYzUxY2VkMjA1Y2EzXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_Ratio1.0000_AL_.jpg"
+			},
+			{
+				"title": "Chris Hemsworth at an event for Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BMDJhZjNiNTAtMmEwZi00Njk3LTkxYTgtNDBiMzAwNGUyY2JlXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_Ratio1.5000_AL_.jpg"
+			},
+			{
+				"title": "Taika Waititi at an event for Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BODEzODZkMTMtMDliMi00MDMwLTk2NWUtY2QwODQzOTUyOTI2XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_Ratio1.5000_AL_.jpg"
+			},
+			{
+				"title": "Taika Waititi at an event for Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BMzIzY2U2ZWQtNWEzYi00NTZhLWE5MGMtYmUwZjBhNzVjN2M1XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_Ratio1.0000_AL_.jpg"
+			},
+			{
+				"title": "Elsa Pataky and Chris Hemsworth at an event for Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BNTdiNDA4NmEtYWI3Ni00YWE2LTlmODItOWI2ZmU4ODNiOWExXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_Ratio1.0000_AL_.jpg"
+			},
+			{
+				"title": "Taika Waititi at an event for Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BMTg4YzU1YTEtZjI4MS00NjFlLWIzODUtMmJmNjM0MWIwYmVmXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_Ratio1.5000_AL_.jpg"
+			},
+			{
+				"title": "Elsa Pataky, Chris Hemsworth, Tristan Hemsworth, and Sasha Hemsworth at an event for Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BNDllYjg1MjctYzczNC00ZDMxLTlmYTEtZjIxNmFkNmJjYmZlXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_Ratio1.0000_AL_.jpg"
+			},
+			{
+				"title": "Elsa Pataky at an event for Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BYmIyYmU3MDctNjlhYi00ODM1LWFjMDctOTU0ODdjNzY5NDZmXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_Ratio1.5000_AL_.jpg"
+			},
+			{
+				"title": "Taika Waititi at an event for Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BNDE2MTI2MTEtYmU5Yy00ZWUzLThlYjktNGNhODI1Yjc5ODkzXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_Ratio1.5000_AL_.jpg"
+			},
+			{
+				"title": "Chris Hemsworth at an event for Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BZjc5YWIyNmItMGFjOS00ZDkzLTkwMDAtODFhMmViNjdiYzg4XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_Ratio1.5000_AL_.jpg"
+			},
+			{
+				"title": "Taika Waititi and Chris Hemsworth at an event for Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BYWU4MzU3ZDMtMjJhMy00YTU4LWI5YTMtODg1ZTI3ZDI5ZjRmXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_Ratio1.5000_AL_.jpg"
+			},
+			{
+				"title": "Sarah Tilleke at an event for Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BYjg1ZTk2MTMtZGFjZC00Nzk5LTllNmEtMTQzZmE2MjJiYTc0XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_Ratio1.0000_AL_.jpg"
+			},
+			{
+				"title": "Taika Waititi at an event for Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BYmM5YTQ2MDYtYjU2MC00MTYzLWI2ZWUtODgyNjg2MzQ3OGY3XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_Ratio1.0000_AL_.jpg"
+			},
+			{
+				"title": "Elsa Pataky at an event for Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BNGQzZjdmODAtZmU2OC00Y2U1LWIzMmEtMTE5NzFjZjE0OTk2XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_Ratio1.5000_AL_.jpg"
+			},
+			{
+				"title": "Chris Hemsworth at an event for Thor: Love and Thunder (2022)",
+				"image": "https://m.media-amazon.com/images/M/MV5BNzM4ZWRlYzktZTMxZi00ZWZjLTg0NWYtN2RlYzNmZjYzMzNjXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_Ratio1.0000_AL_.jpg"
+			}
+		],
+		"errorMessage": ""
+	},
+	"trailer": {
+		"imDbId": "tt10648342",
+		"title": "Thor: Love and Thunder",
+		"fullTitle": "Thor: Love and Thunder (2022)",
+		"type": "Movie",
+		"year": "2022",
+		"videoId": "vi1613808153",
+		"videoTitle": "Army Trailer",
+		"videoDescription": "Thor enlists the help of Valkyrie, Korg and ex-girlfriend Jane Foster to fight Gorr the God Butcher, who intends to make the gods extinct.",
+		"thumbnailUrl": "https://m.media-amazon.com/images/M/MV5BNGJjNDc4NTAtNTU1YS00MzZiLWExMTUtZDRiNTJkYThiMTZiXkEyXkFqcGdeQWxiaWFtb250._V1_.jpg",
+		"uploadDate": "07/04/2022 13:34:17",
+		"link": "https://www.imdb.com/video/vi1613808153",
+		"linkEmbed": "https://www.imdb.com/video/imdb/vi1613808153/imdb/embed",
+		"errorMessage": ""
+	},
+	"boxOffice": {
+		"budget": "$250,000,000 (estimated)",
+		"openingWeekendUSA": "$144,165,107",
+		"grossUSA": "$343,077,809",
+		"cumulativeWorldwideGross": "$759,753,739"
+	},
+	"tagline": null,
+	"keywords": "superhero action,superhero,marvel comics,superheroine,norse god",
+	"keywordList": [
+		"superhero action",
+		"superhero",
+		"marvel comics",
+		"superheroine",
+		"norse god"
+	],
+	"similars": [
+		{
+			"id": "tt3501632",
+			"title": "Thor: Ragnarok",
+			"image": "https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_Ratio0.6763_AL_.jpg",
+			"imDbRating": "7.9"
+		},
+		{
+			"id": "tt9419884",
+			"title": "Doctor Strange in the Multiverse of Madness",
+			"image": "https://m.media-amazon.com/images/M/MV5BNWM0ZGJlMzMtZmYwMi00NzI3LTgzMzMtNjMzNjliNDRmZmFlXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_Ratio0.6763_AL_.jpg",
+			"imDbRating": "7.0"
+		},
+		{
+			"id": "tt0800369",
+			"title": "Thor",
+			"image": "https://m.media-amazon.com/images/M/MV5BOGE4NzU1YTAtNzA3Mi00ZTA2LTg2YmYtMDJmMThiMjlkYjg2XkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_Ratio0.6763_AL_.jpg",
+			"imDbRating": "7.0"
+		},
+		{
+			"id": "tt1981115",
+			"title": "Thor: The Dark World",
+			"image": "https://m.media-amazon.com/images/M/MV5BMTQyNzAwOTUxOF5BMl5BanBnXkFtZTcwMTE0OTc5OQ@@._V1_Ratio0.7053_AL_.jpg",
+			"imDbRating": "6.8"
+		},
+		{
+			"id": "tt10872600",
+			"title": "Spider-Man: No Way Home",
+			"image": "https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_Ratio0.6763_AL_.jpg",
+			"imDbRating": "8.3"
+		},
+		{
+			"id": "tt13833688",
+			"title": "The Whale",
+			"image": "https://m.media-amazon.com/images/M/MV5BZTMzY2I4MmYtOWEzMi00MTE4LWJmZjctODQ0NzYyMjk1NWMzXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_Ratio1.3333_AL_.jpg",
+			"imDbRating": ""
+		},
+		{
+			"id": "tt10857160",
+			"title": "She-Hulk: Attorney at Law",
+			"image": "https://m.media-amazon.com/images/M/MV5BMjU4MTkxNzktNzUyYy00NDM2LWE5NGQtNjJlN2Q0N2MxZDAxXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_Ratio0.6763_AL_.jpg",
+			"imDbRating": "5.0"
+		},
+		{
+			"id": "tt1877830",
+			"title": "The Batman",
+			"image": "https://m.media-amazon.com/images/M/MV5BMDdmMTBiNTYtMDIzNi00NGVlLWIzMDYtZTk3MTQ3NGQxZGEwXkEyXkFqcGdeQXVyMzMwOTU5MDk@._V1_Ratio0.6763_AL_.jpg",
+			"imDbRating": "7.9"
+		},
+		{
+			"id": "tt1745960",
+			"title": "Top Gun: Maverick",
+			"image": "https://m.media-amazon.com/images/M/MV5BZWYzOGEwNTgtNWU3NS00ZTQ0LWJkODUtMmVhMjIwMjA1ZmQwXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_Ratio0.6763_AL_.jpg",
+			"imDbRating": "8.4"
+		},
+		{
+			"id": "tt10234724",
+			"title": "Moon Knight",
+			"image": "https://m.media-amazon.com/images/M/MV5BYTc5OWNhYjktMThlOS00ODUxLTgwNDQtZjdjYjkyM2IwZTZlXkEyXkFqcGdeQXVyNTA3MTU2MjE@._V1_Ratio0.6763_AL_.jpg",
+			"imDbRating": "7.3"
+		},
+		{
+			"id": "tt4154796",
+			"title": "Avengers: Endgame",
+			"image": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_Ratio0.6763_AL_.jpg",
+			"imDbRating": "8.4"
+		},
+		{
+			"id": "tt8041270",
+			"title": "Jurassic World Dominion",
+			"image": "https://m.media-amazon.com/images/M/MV5BOTBjMjA4NmYtN2RjMi00YWZlLTliYTktOTIwMmNkYjYxYmE1XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_Ratio0.6957_AL_.jpg",
+			"imDbRating": "5.7"
+		}
+	],
+	"tvSeriesInfo": null,
+	"tvEpisodeInfo": null,
+	"errorMessage": null
+}
