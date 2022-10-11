@@ -1,6 +1,6 @@
 import axios from "axios"
-//import mockMovie from '../mock/mockMovie.json'
-const instance = axios.create({
+import mockMovie from '../mock/mockMovie.json'
+export const instance = axios.create({
 	baseURL: 'https://imdb-api.com/ru/API/',
 })
 const apikey = "pk_haswrb539erohnlhc"
@@ -9,10 +9,11 @@ export const moviesAPI = {
 	fetchMoviesList(type: string): Promise<ResponseType> {
 		return instance.get(`${type}/${apikey}`).then(res => res.data)
 	},
-	fetchMovieById(id: string): Promise<ResponseMovieType> {
-		return instance.get(`Title/${apikey}/${id}/FullActor,Images,Trailer`).then(res => res.data)
-		//return mockMovie
-	}
+	fetchMovieById(id: string): any /*Promise<ResponseMovieType>*/ {
+		// return instance.get(`Title/${apikey}/${id}/FullActor,Images,Trailer`).then(res => res.data)
+		return mockMovie
+	},
+
 }
 
 export type MoviesType = {
@@ -43,12 +44,12 @@ export type ResponseMovieType = {
 	directorList: ListItemType[]
 	writerList: ListItemType[]
 	starList: ListItemType[]
-	actorList: ListItemType[]
+	actorList: { id: string, image: string, name: string, asCharacter: string }[]
 	genreList: { key: string, value: string }[]
 	companyList: ListItemType[]
 	countryList: { key: string, value: string }[]
 	imDbRating: string
-	images: { items: { image: string }[] }[]
+	images: { items: { image: string, title: string }[] }
 	trailer: { linkEmbed: string }
 	similars: { id: string, title: string, image: string, imDbRating: string }[]
 }
