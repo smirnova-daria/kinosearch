@@ -2,7 +2,7 @@ import { Avatar, Button, Col, Descriptions, Layout, List, Popover, Result, Row, 
 import React, { FC, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import { useAppDispatch, useAppSelector } from '../../hooks/hooks'
-import { fetchCurrentMovie, selectCurrentMovie, selectIsError, selectIsLoading } from '../../redux/moviesSlice/moviesSlice'
+import { fetchCurrentMovie, MovieType, selectCurrentMovie, selectIsError, selectIsLoading } from '../../redux/moviesSlice/moviesSlice'
 import styles from './MoviePage.module.scss'
 
 const { Title, Paragraph, Text } = Typography
@@ -38,14 +38,23 @@ const MoviePage: FC = () => {
 			}
 			{currentMovie &&
 				<div className={styles.movieWrapper}>
-					<Row justify='space-between'>
-						<Col sm={{ span: 10, order: 2 }} md={{ span: 11, order: 1 }} lg={{ span: 8, order: 1 }}>
+					<Row justify='space-between' style={{ marginBottom: '1rem' }}>
+						<Col
+							sm={{ span: 10, order: 2 }}
+							md={{ span: 11, order: 1 }}
+							lg={{ span: 8, order: 1 }}
+							className={styles.imageCol}
+						>
 							<img src={currentMovie.image} alt={currentMovie.title} />
 						</Col>
-						<Col sm={{ span: 24, order: 1 }} md={{ span: 12, order: 2 }} lg={{ span: 10, order: 2 }}>
-							<Title level={1} style={{ fontWeight: 700, margin: 0 }}>{currentMovie.title}</Title>
-							<Text style={{ fontSize: '1.5rem', fontWeight: 600 }}>{currentMovie.year}</Text>
-							<Paragraph style={{ fontSize: '1.1rem', opacity: '0.8', margin: '1rem 0' }}>
+						<Col
+							sm={{ span: 24, order: 1 }}
+							md={{ span: 12, order: 2 }}
+							lg={{ span: 10, order: 2 }}>
+							<Title level={1} className={styles.movieTitle}
+							>{currentMovie.title}</Title>
+							<Text className={styles.movieYear}>{currentMovie.year}</Text>
+							<Paragraph className={styles.movieDescription}>
 								{currentMovie.plot}
 							</Paragraph>
 							<Descriptions title="About film" column={1} labelStyle={{ opacity: '0.8', fontWeight: 600 }}>
@@ -58,7 +67,11 @@ const MoviePage: FC = () => {
 								<Descriptions.Item label="Duration">{currentMovie.runtimeStr}</Descriptions.Item>
 							</Descriptions>
 						</Col>
-						<Col sm={{ span: 10, order: 3 }} md={{ span: 10, order: 3 }} lg={{ span: 4, order: 3 }}>
+						<Col
+							sm={{ span: 10, order: 3 }}
+							md={{ span: 10, order: 3 }}
+							lg={{ span: 4, order: 3 }}
+							style={{ width: '100%' }}>
 							<Title level={3} style={{ fontWeight: 700, marginBottom: '10px', textAlign: 'center' }}>Starring</Title>
 							<List
 								itemLayout="horizontal"
@@ -79,67 +92,32 @@ const MoviePage: FC = () => {
 									</List.Item>
 								)}
 							/>} trigger="click">
-								<Button style={{ fontWeight: 700, margin: '10px auto', textAlign: 'center', display: 'block', fontSize: '1.2rem', height: 'auto' }}>Other</Button>
+								<Button style={{ fontWeight: 700, margin: '10px auto', textAlign: 'center', display: 'block', fontSize: '1.2rem', height: 'auto' }}>Other actors</Button>
 							</Popover>
 
 						</Col>
 					</Row>
-					<Row>
-
-					</Row>
-					<Row>
-
+					<Row justify='start'>
+						<Col
+							style={{ width: '100%' }}
+						>
+							<iframe
+								src={window.innerWidth > 560 ? `${currentMovie.trailer.linkEmbed}?autoplay=false&width=560` : `${currentMovie.trailer.linkEmbed}?autoplay=false&width=300`}
+								title={`trailer of ${currentMovie.title}`}
+								width="560"
+								height="310"
+								allowFullScreen
+								frameBorder="no"
+								// scrolling="no"
+								className={styles.trailerFrame}
+							>
+							</iframe>
+						</Col>
 					</Row>
 				</div>
 			}
-		</Layout>
+		</Layout >
 	)
 }
 
 export default MoviePage
-
-// Год производства
-// 1999
-// Страна
-// США
-// Жанр
-// драма, криминал
-// слова
-// Слоган
-// «Пол Эджкомб не верил в чудеса.Пока не столкнулся с одним из них»
-// Режиссер
-// Фрэнк Дарабонт
-// Сценарий
-// Фрэнк Дарабонт, Стивен Кинг
-// Продюсер
-// Фрэнк Дарабонт, Дэвид Валдес
-// Оператор
-// Дэвид Тэттерсолл
-// Композитор
-// Томас Ньюман
-// Художник
-// Теренс Марш, Уильям Крус, Керин Вагнер, ...
-// Монтаж
-// Ричард Фрэнсис - Брюс
-// Бюджет
-// $60 000 000
-// Маркетинг
-// $30 000 000
-// Сборы в США
-// $136 801 374
-// Сборы в мире
-// 	+ $150 000 000 = $286 801 374
-// сборы
-// Зрители
-// США26 млн, Германия2.1 млн, Италия1.7 млн, ...
-// Премьера в Росcии
-// 18 апреля 2000, «West»
-// Премьера в мире
-// 6 декабря 1999, ...
-// Релиз на DVD
-// 13 февраля 2001, «West Video»
-// Возраст
-// 16 +
-// 	Рейтинг MPAA
-// R
-// Время

@@ -3,4 +3,7 @@
 	padding: 20px;
 	background-color: #fff;
 	min-height: 100vh;
+	@media (max-width: 570px) {
+		margin: 0;
+	}
 }
