@@ -2,7 +2,7 @@ import { Avatar, Button, Col, Descriptions, Layout, List, Popover, Result, Row, 
 import React, { FC, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import { useAppDispatch, useAppSelector } from '../../hooks/hooks'
-import { fetchCurrentMovie, MovieType, selectCurrentMovie, selectIsError, selectIsLoading } from '../../redux/moviesSlice/moviesSlice'
+import { addToFavorite, CurrentMovieType, fetchCurrentMovie, removeFromFavorite, selectCurrentMovie, selectIsError, selectIsLoading } from '../../redux/moviesSlice/moviesSlice'
 import styles from './MoviePage.module.scss'
 
 const { Title, Paragraph, Text } = Typography
@@ -20,10 +20,17 @@ const MoviePage: FC = () => {
 		}
 	}, [id, dispatch])
 
-	const starIds = currentMovie?.starList.map(m => m.id)
-	const mainStars = currentMovie?.actorList.filter(m => starIds?.includes(m.id))
-	const otherStars = currentMovie?.actorList.filter(m => !starIds?.includes(m.id))
+	const starIds = currentMovie?.starList.map((m: { id: any }) => m.id)
+	const mainStars = currentMovie?.actorList.filter((m: { id: any }) => starIds?.includes(m.id))
+	const otherStars = currentMovie?.actorList.filter((m: { id: any }) => !starIds?.includes(m.id))
 	otherStars?.splice(10);
+
+	const removeHandler = (id: string) => {
+		dispatch(removeFromFavorite(id))
+	}
+	const addHandler = (movie: CurrentMovieType) => {
+		dispatch(addToFavorite(movie))
+	}
 
 	return (
 		<Layout className={styles.pageContainer}>
@@ -38,14 +45,18 @@ const MoviePage: FC = () => {
 			}
 			{currentMovie &&
 				<div className={styles.movieWrapper}>
-					<Row justify='space-between' style={{ marginBottom: '1rem' }}>
+					<Row justify='space-between' style={{ marginBottom: '2rem' }}>
 						<Col
 							sm={{ span: 10, order: 2 }}
 							md={{ span: 11, order: 1 }}
 							lg={{ span: 8, order: 1 }}
 							className={styles.imageCol}
 						>
-							<img src={currentMovie.image} alt={currentMovie.title} />
+							<img src={currentMovie.image} alt={currentMovie.title} loading='lazy' style={{ marginBottom: '2rem' }} />
+							{currentMovie.isLiked
+								? <Button onClick={() => removeHandler(currentMovie.id)}>Remove from favorite</Button>
+								: <Button onClick={() => addHandler(currentMovie)}>Add to favorite</Button>
+							}
 						</Col>
 						<Col
 							sm={{ span: 24, order: 1 }}
@@ -59,11 +70,11 @@ const MoviePage: FC = () => {
 							</Paragraph>
 							<Descriptions title="About film" column={1} labelStyle={{ opacity: '0.8', fontWeight: 600 }}>
 								<Descriptions.Item label="Year">{currentMovie.year}</Descriptions.Item>
-								<Descriptions.Item label="Country">{currentMovie.countryList.map(c => c.key).join(', ')}</Descriptions.Item>
-								<Descriptions.Item label="Genres">{currentMovie.genreList.map(g => g.key).join(', ')}</Descriptions.Item>
-								<Descriptions.Item label="Directors">{currentMovie.directorList.map(d => d.name).join(', ')}</Descriptions.Item>
-								<Descriptions.Item label="Writers">{currentMovie.writerList.map(w => w.name).join(', ')}</Descriptions.Item>
-								<Descriptions.Item label="Companies">{currentMovie.companyList.map(c => c.name).join(', ')}</Descriptions.Item>
+								<Descriptions.Item label="Country">{currentMovie.countryList.map((c: { key: any }) => c.key).join(', ')}</Descriptions.Item>
+								<Descriptions.Item label="Genres">{currentMovie.genreList.map((g: { key: any }) => g.key).join(', ')}</Descriptions.Item>
+								<Descriptions.Item label="Directors">{currentMovie.directorList.map((d: { name: any }) => d.name).join(', ')}</Descriptions.Item>
+								<Descriptions.Item label="Writers">{currentMovie.writerList.map((w: { name: any }) => w.name).join(', ')}</Descriptions.Item>
+								<Descriptions.Item label="Companies">{currentMovie.companyList.map((c: { name: any }) => c.name).join(', ')}</Descriptions.Item>
 								<Descriptions.Item label="Duration">{currentMovie.runtimeStr}</Descriptions.Item>
 							</Descriptions>
 						</Col>
@@ -97,6 +108,7 @@ const MoviePage: FC = () => {
 
 						</Col>
 					</Row>
+					<hr style={{ margin: '0 0 2rem 0', borderTop: 'none' }} />
 					<Row justify='start'>
 						<Col
 							style={{ width: '100%' }}
