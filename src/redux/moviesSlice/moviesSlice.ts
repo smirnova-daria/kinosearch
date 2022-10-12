@@ -8,18 +8,18 @@ const favoriteMovies: MovieType[] = JSON.parse(localStorage.getItem('favorite-mo
 const initialState: MoviesState = {
 	moviesToShow: [],
 	favoriteMovies,
+	currentMovie: null,
 	isLoading: false,
 	isError: false,
-	currentMovie: null
 }
 
 export const fetchMoviesList = createAsyncThunk(
 	'movies/fetchMovies',
-	async (type: string): Promise<MovieType[]> => {
+	async (type: string, { getState }: any): Promise<MovieType[]> => {
 		const data = await moviesAPI.fetchMoviesList(type)
 
 		return data.items.map(m => {
-			const isMovieInFavorite = favoriteMovies.find(movie => movie.id === m.id)
+			const isMovieInFavorite: boolean = getState().movies.favoriteMovies.find((movie: { id: string }) => movie.id === m.id)
 			const updatedData = {
 				id: m.id,
 				crew: m.crew,
@@ -37,8 +37,11 @@ export const fetchMoviesList = createAsyncThunk(
 
 export const fetchCurrentMovie = createAsyncThunk(
 	'movies/fetchCurrentMovie',
-	async (id: string): Promise<CurrentMovieType> => {
+	async (id: string, { getState }: any): Promise<CurrentMovieType> => {
+
 		const data = await moviesAPI.fetchMovieById(id)
+		const favoriteMovies: MovieType[] = getState().movies.favoriteMovies
+
 		const isMovieInFavorite = favoriteMovies.find(movie => movie.id === data.id)
 		return {
 			...data,
@@ -52,9 +55,26 @@ export const moviesSlice = createSlice({
 	initialState,
 	reducers: {
 		addToFavorite: (state, action: PayloadAction<MovieType>) => {
-			const movie = state.moviesToShow.find(m => m.id === action.payload.id)
-			if (movie) {
-				movie.isLiked = true
+			let movie: MovieType = action.payload
+			const foundMovie = state.moviesToShow.find(m => m.id === movie.id)
+			if (foundMovie) {
+				if (state.currentMovie) {
+					state.currentMovie.isLiked = true
+				}
+				let normalizeMovie: MovieType;
+				if (movie.companies) {
+					normalizeMovie = {
+						id: movie.id,
+						image: movie.image,
+						imDbRating: movie.imDbRating,
+						isLiked: movie.isLiked,
+						title: movie.title,
+						year: movie.year,
+						crew: movie.crew
+					}
+					movie = normalizeMovie
+				}
+				foundMovie.isLiked = true
 				state.favoriteMovies.push(movie)
 				localStorage.setItem('favorite-movies', JSON.stringify(state.favoriteMovies))
 			}
@@ -63,6 +83,9 @@ export const moviesSlice = createSlice({
 			const movie = state.moviesToShow.find(m => m.id === action.payload)
 			const index = state.favoriteMovies.findIndex(m => m.id === action.payload)
 			if (movie && index !== undefined) {
+				if (state.currentMovie) {
+					state.currentMovie.isLiked = false
+				}
 				movie.isLiked = false
 				state.favoriteMovies.splice(index, 1)
 				localStorage.setItem('favorite-movies', JSON.stringify(state.favoriteMovies))
@@ -80,6 +103,7 @@ export const moviesSlice = createSlice({
 		builder
 			.addCase(fetchMoviesList.pending, (state) => {
 				state.moviesToShow = []
+				state.currentMovie = null
 				state.isLoading = true
 				state.isError = false
 			})
@@ -94,6 +118,7 @@ export const moviesSlice = createSlice({
 				state.isError = true
 			})
 			.addCase(fetchCurrentMovie.pending, (state) => {
+				state.moviesToShow = []
 				state.isLoading = true
 				state.isError = false
 			})
@@ -101,6 +126,7 @@ export const moviesSlice = createSlice({
 				state.isLoading = false
 				state.isError = false
 				state.currentMovie = action.payload
+				state.moviesToShow = [action.payload]
 			})
 			.addCase(fetchCurrentMovie.rejected, (state) => {
 				state.isLoading = false
@@ -123,12 +149,13 @@ export type MovieType = {
 	title: string
 	year: string
 	image: string
-	crew: string
+	crew?: string
 	imDbRating: string
 	isLiked: boolean
+	companies?: string
 }
 
-type CurrentMovieType = {
+export type CurrentMovieType = {
 	id: string
 	title: string
 	year: string
